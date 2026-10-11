@@ -1,0 +1,40 @@
+# Ignore list for KiCAD Projects
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+.history
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+# Netlist files (exported from Eeschema)
+*.net
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+*.zip
+*.lck
+
+# Firmware build output
+*.o
+*.elf
+*.hex
+
+# Python crap
+.venv
+.pyc
+__pycache__
+
+
+# Gerbers
+production
+
+*.stamp
+
+# Reference manuals downloaded from bitsavers (large, not ours)
+ref/
